@@ -84,7 +84,7 @@ export default function HeadphoneScroll({
 
       const hRatio = canvas.width / img.width;
       const vRatio = canvas.height / img.height;
-      const ratio = Math.max(hRatio, vRatio); // Use max for "cover", min for "contain" ... let's use max for a seamless blended background or center it with contain
+       // Use max for "cover", min for "contain" ... let's use max for a seamless blended background or center it with contain
 
       // Since the prompt asks for "Seamless Blending: The background of the website MUST match the background color of the image sequence exactly so the image edges are invisible."
       // We can use contain fit to prevent cropping the product
